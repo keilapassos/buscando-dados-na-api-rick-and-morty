@@ -1,0 +1,49 @@
+h1 {
+  font-size: 2.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+  color: rgb(44, 160, 44);
+  text-shadow: 10px 10px 9px rgb(30, 90, 30);
+}
+
+img {
+  max-width: 50%;
+}
+
+.cardsPlace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.statusCharDead {
+  background-color: rgba(235, 150, 135, 0.651);
+  color: rgb(10, 43, 10);
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.statusCharAlive {
+  background-color: rgba(188, 235, 135, 0.411);
+  color: rgb(10, 43, 10);
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .statusCharDead {
+    box-shadow: 10px 10px 6px rgba(163, 144, 141, 0.651);
+    margin: 20px;
+    width: 500px;
+  }
+
+  .statusCharAlive {
+    box-shadow: 10px 10px 6px rgb(30, 90, 30);
+    margin: 20px;
+    width: 500px;
+  }
+}
