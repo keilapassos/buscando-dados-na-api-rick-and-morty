@@ -1,2 +1,3 @@
 # buscando-dados-na-api-rick-and-morty
-Created with CodeSandbox
+
+### Você pode vizualizar este projeto pelo codesandbox: https://0y3i9.csb.app/
